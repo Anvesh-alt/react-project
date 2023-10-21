@@ -1,0 +1,166 @@
+.container{
+    height: 100vh;
+    background-color: white;
+
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 20%;
+    margin-top: 10px;
+}
+
+.leftPart{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.rightPart{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 50%;
+
+}
+
+.inputBox{
+    height: fit-content;
+}
+
+
+
+.filterContainer{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 50%;
+    justify-content: space-around;
+  }
+  
+  .head{
+    text-align: center;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  
+  li {
+    width: calc(29% - 25px); 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  .productImage {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    width: 300px;
+    height: 275px;
+    align-self: center;
+  }
+  
+  .header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  @media (max-width: 768px) {
+    ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      flex-direction: column;
+      gap: 10px;
+      width: 100%;
+    }
+    
+    li {
+      width: 75%; 
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 10px;
+      align-self: center;
+    }
+    
+  }
+
+  .navbar {
+    background-color: #3498db; 
+  }
+  
+  .navbar a {
+    color: #fff; 
+  }
+  
+  .navbar a:hover {
+    color: #f1c40f; 
+  }
+  
+  
+  .list{
+    margin-top: 75px;
+    
+  }
+  
+  .nav3{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background-color: #dcdcdc;
+    font-family: "Roboto";
+  }
+  
+  .navd{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    background-color: #dcdcdc;
+    height: 100%;
+
+  }
+
+  .iteam{
+    
+    background-color: transparent;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  .priceCont{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-weight: bold;
+    font-family: "Roboto";
+    margin-top: 15px;
+    font-size: 17.5px;
+  }
+
+  .discrip{
+    align-self: flex-start;
+    font-size: 15px;
+    font-family: "Roboto";
+    color: #36454f;
+    margin-left: 7.5px;
+    text-align: left;
+  }
